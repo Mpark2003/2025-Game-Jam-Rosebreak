@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ts_wave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ts_wave",
+  "parent":{
+    "name":"effects",
+    "path":"folders/Scripts/etc/Draw/TEXT_SPEC/tags/effects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

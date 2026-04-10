@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Bonuses",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Bonuses",
+  "parent":{
+    "name":"etc",
+    "path":"folders/Scripts/etc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

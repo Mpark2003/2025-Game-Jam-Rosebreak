@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"usertag_add",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"usertag_add",
+  "parent":{
+    "name":"usertags",
+    "path":"folders/Scripts/etc/Draw/TEXT_SPEC/usertags.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
