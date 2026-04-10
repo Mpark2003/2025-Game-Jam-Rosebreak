@@ -1,0 +1,12 @@
+event_inherited();
+image_speed = 1;
+maxHp=1;
+hp=maxHp;
+item=2;
+mom=5;
+move=0;
+value=200;
+fire=1;
+damage=hp;
+hittable=1;
+alarm[1]=120;
