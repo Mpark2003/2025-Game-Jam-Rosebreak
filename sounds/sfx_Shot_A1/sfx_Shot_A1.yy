@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_Shot_A1",
+  "audioGroupId":{
+    "name":"AG_SFX",
+    "path":"audiogroups/AG_SFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.197721,
+  "name":"sfx_Shot_A1",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Sounds/SFX/Player.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_Shot_A1.wav",
+  "type":0,
+  "volume":1.0,
+}

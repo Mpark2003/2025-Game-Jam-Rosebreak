@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_ExplosionL",
+  "audioGroupId":{
+    "name":"AG_SFX",
+    "path":"audiogroups/AG_SFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.362755,
+  "name":"sfx_ExplosionL",
+  "parent":{
+    "name":"Explosions",
+    "path":"folders/Sounds/SFX/Explosions.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_ExplosionL",
+  "type":0,
+  "volume":1.0,
+}

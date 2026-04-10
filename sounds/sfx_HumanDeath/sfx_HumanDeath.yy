@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_HumanDeath",
+  "audioGroupId":{
+    "name":"AG_SFX",
+    "path":"audiogroups/AG_SFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.270261,
+  "name":"sfx_HumanDeath",
+  "parent":{
+    "name":"Explosions",
+    "path":"folders/Sounds/SFX/Explosions.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_HumanDeath.wav",
+  "type":0,
+  "volume":1.0,
+}

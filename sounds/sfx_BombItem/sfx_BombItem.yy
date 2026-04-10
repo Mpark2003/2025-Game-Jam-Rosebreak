@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_BombItem",
+  "audioGroupId":{
+    "name":"AG_SFX",
+    "path":"audiogroups/AG_SFX",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.219422,
+  "name":"sfx_BombItem",
+  "parent":{
+    "name":"Items",
+    "path":"folders/Sounds/SFX/Items.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_BombItem.wav",
+  "type":0,
+  "volume":1.0,
+}
