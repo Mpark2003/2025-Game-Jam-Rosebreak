@@ -1,0 +1,103 @@
+if (place_meeting(x,y,EnemyAttack_Parent))||(place_meeting(x,y,Enemy_Parent_Threat))//||place_meeting(x,y,Boss_Parent))
+{
+    var inst=instance_place(x,y,EnemyAttack_Parent);
+    if (distance_to_object(inst)<=1){
+    if instance_exists(master)
+	{
+        if  (master.hurt==0)
+        {
+            if global.bomberCharge>=100
+            {
+                master.hurt=1;
+                global.enemyRank=round(global.enemyRank/1.5);
+                with(EnemyAttack_Parent)
+                {
+                    instance_create_depth(x,y,depth,Bullet_Canceled);
+                    instance_destroy(); 
+                }
+                global.bomberCharge=0;
+                with(master)
+                {
+                    switch(global.playerType)
+                    {
+                        case 0: PS_BomberA(1); break;
+                        case 1: hyper=2;energyLevel=50;instance_create_depth(x,y,-10,Weak_Bomb); break;
+                        case 2: 
+                        {
+                            instance_create_depth(x,y,-10,Weak_Bomb);
+                            for (i=0;i<36;i++)
+            				{
+            					inst=instance_create_depth(x,y,-10,Bomb_C2);
+            					inst.speed=10;
+            					inst.direction=10*i;
+            					inst.shotFrom=playerSet;
+            				}
+                        }break;
+                        case 3: 
+                        {
+                            instance_create_depth(x,y,-10,Weak_Bomb);
+                            instance_create_depth(x,y,-10,BombD_Dropper);
+ 
+                        }break;
+                        default: break;
+                    }
+                }
+                master.alarm[2]=60;
+            }else{
+        		master.hurt=1;
+                master.image_alpha=0;
+                global.miss+=1;
+                global.shotExp=0;
+                global.playerDamage=1;
+        		alarm[0]=90;
+        		global.enemyRank=round(global.enemyRank/2);
+        		if global.enemyRank<0
+        		{
+        			global.enemyRank=0;
+        		}
+                master.x=240;
+                master.y=9000;
+                global.bomberCharge=100;
+                inst=instance_create_depth(x,y,depth,Player_Death);
+                inst.sprite_index=master.sprite_index;
+                inst.image_index=master.image_index;
+        		with(EnemyAttack_Parent)
+                {
+                    instance_create_depth(x,y,depth,Bullet_Canceled);
+                    instance_destroy(); 
+                }
+            }
+        }
+	}}   
+}
+if (place_meeting(x,y,Boss_Parent)||place_meeting(x,y,Enemy_Parent_Air))
+{
+    if instance_exists(master)
+	{
+        if  (master.hurt==0)
+        {
+    		master.hurt=1;
+            master.image_alpha=0;
+            global.miss+=1;
+            global.shotExp=0;
+            global.playerDamage=1;
+    		alarm[0]=90;
+    		global.enemyRank=round(global.enemyRank/2);
+    		if global.enemyRank<0
+    		{
+    			global.enemyRank=0;
+    		}
+            master.x=240;
+            master.y=9000;
+            global.bomberCharge=100;
+            inst=instance_create_depth(x,y,depth,Player_Death);
+            inst.sprite_index=master.sprite_index;
+            inst.image_index=master.image_index;
+    		with(EnemyAttack_Parent)
+            {
+                instance_create_depth(x,y,depth,Bullet_Canceled);
+                instance_destroy(); 
+            }
+        }
+	}   
+}
