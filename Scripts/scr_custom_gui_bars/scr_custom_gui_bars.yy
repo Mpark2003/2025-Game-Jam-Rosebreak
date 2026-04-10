@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_custom_gui_bars",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_custom_gui_bars",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/etc/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_CheckDamage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_CheckDamage",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

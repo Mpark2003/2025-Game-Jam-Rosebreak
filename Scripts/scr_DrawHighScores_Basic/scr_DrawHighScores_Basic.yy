@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_DrawHighScores_Basic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_DrawHighScores_Basic",
+  "parent":{
+    "name":"scr",
+    "path":"folders/Scripts/Menus/scr.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

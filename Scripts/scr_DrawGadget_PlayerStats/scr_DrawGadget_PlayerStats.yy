@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_DrawGadget_PlayerStats",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_DrawGadget_PlayerStats",
+  "parent":{
+    "name":"Gadgets",
+    "path":"folders/Scripts/Hud/Gadgets.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

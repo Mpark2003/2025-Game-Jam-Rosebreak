@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_DrawScore_Table",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_DrawScore_Table",
+  "parent":{
+    "name":"Main",
+    "path":"folders/Scripts/Hud/Main.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

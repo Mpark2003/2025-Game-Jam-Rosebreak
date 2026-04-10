@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_DrawHud_Stage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_DrawHud_Stage",
+  "parent":{
+    "name":"Main",
+    "path":"folders/Scripts/Hud/Main.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

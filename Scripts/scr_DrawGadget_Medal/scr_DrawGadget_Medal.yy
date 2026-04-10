@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_DrawGadget_Medal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_DrawGadget_Medal",
+  "parent":{
+    "name":"Gadgets",
+    "path":"folders/Scripts/Hud/Gadgets.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
