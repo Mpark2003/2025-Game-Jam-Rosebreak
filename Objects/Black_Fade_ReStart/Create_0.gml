@@ -1,0 +1,11 @@
+image_alpha=0;
+depth=-2000;
+saveType=global.playerType;
+saveColor=global.playerColor;
+saveStyle=global.playerStyle;
+saveCheck=global.checkpoint;
+saveStage=global.stage;
+saveMode=global.gamemode;
+saveLife=global.lifeMaxStart;
+saveRank=global.enemyRankStart;
+savePractice=global.practiceMode

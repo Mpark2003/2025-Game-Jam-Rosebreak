@@ -1,0 +1,2 @@
+y+=global.bgSpeedV;
+
