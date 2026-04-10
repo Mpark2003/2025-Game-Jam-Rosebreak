@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ts_delete_lastchar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ts_delete_lastchar",
+  "parent":{
+    "name":"TEXT_SPEC",
+    "path":"folders/Scripts/etc/Draw/TEXT_SPEC.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

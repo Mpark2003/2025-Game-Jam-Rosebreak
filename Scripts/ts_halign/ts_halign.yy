@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ts_halign",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ts_halign",
+  "parent":{
+    "name":"tags",
+    "path":"folders/Scripts/etc/Draw/TEXT_SPEC/tags.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

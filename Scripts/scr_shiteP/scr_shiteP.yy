@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_shiteP",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_shiteP",
+  "parent":{
+    "name":"Save_Load",
+    "path":"folders/Scripts/Save_Load.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

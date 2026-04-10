@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ts_add_keyword",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ts_add_keyword",
+  "parent":{
+    "name":"tags",
+    "path":"folders/Scripts/etc/Draw/TEXT_SPEC/tags.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
