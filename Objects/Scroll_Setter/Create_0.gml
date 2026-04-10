@@ -1,0 +1,1 @@
+global.bgSpeedV = 1;

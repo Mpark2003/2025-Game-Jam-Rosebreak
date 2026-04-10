@@ -1,0 +1,30 @@
+event_inherited();
+hp=5;
+mom=5;
+move=0;
+heavyHit=0;
+bombHit=0;
+value=300;
+item=2;
+
+hitFrom=1;
+attack=0;
+rapid=0;
+shoot=false;
+fire=true;
+alarm[0]=30+random_range(20,40);
+var master;
+damage=hp;
+invoked=0;
+invoke=0;
+hittable=1;
+
+image_index=0;
+image_speed=0;
+direction=point_direction(x,y,Camera_Main.x,Camera_Main.y);
+image_angle=direction;
+target=noone;
+lockDamage=0;
+cool=0;
+locked=0;
+var lock;
