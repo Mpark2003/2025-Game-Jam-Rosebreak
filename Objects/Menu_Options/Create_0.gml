@@ -1,0 +1,10 @@
+menu[0]= "SFX";
+menu[1]= "BGM";
+menu[2]= "Screen Size";
+menu[3]= "Accessability Mode";
+menu[4]= "Controls";
+menu[5]= "Return";
+menuMax = array_length(menu)-1;
+ok=0;
+space=15;
+select=0;

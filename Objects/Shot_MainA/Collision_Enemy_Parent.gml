@@ -1,0 +1,1 @@
+scr_BuletHit_Impact(damage,sfx_VulcanA,Vulcan_ImpactA,0);
